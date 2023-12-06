@@ -12,21 +12,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1606221784  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    API_ID = 20247370  # integer value, dont use ""
+    API_HASH = "813309fab8cd9fce260ce7269e543bdb"
+    TOKEN = "6861812262:AAF48WtPnhHNV9qKybMLT370eabgLpPr4dw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1748872441  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
-    OWNER_USERNAME = "Scotchers"
-    BOT_USERNAME = "EmiexRobot"
-    SUPPORT_CHAT = "FumikaSupportGroup"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "dontnicetry"
+    BOT_USERNAME = "nerobot"
+    SUPPORT_CHAT = "neroosuport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001748076180
+        -1002081701186
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001748076180
+        -1002081701186
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    ERROR_LOG = -1001657496255
+    ERROR_LOG = -1002081701186
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
@@ -39,7 +39,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "w4Y2xp58lSdYxNrOtuLxc_YD~MwAZZ8DEE6CAsBLGhQBHwQGNDwL9WnvhZlHjC6J"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
