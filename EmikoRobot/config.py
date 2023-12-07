@@ -81,7 +81,7 @@ class Config(object):
     CF_API_KEY = "jk"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SESSION_STRING = "12342"
-    STRING_SESSION = "kontol"
+    STRING_SESSION = "1BVtsOL4Bu6volwhUyn_lCYUeCnindU0t4OrDqlv1yxiqXdwiIDvmROWphCrXjdoy8glzgWuZEZ-7Z3pjHqvm_XaFmWrj4TkHNAwOOhmgIDxDzyDFUGRDH727EV42VSPQerJpbyPBhKfUUnyWA-AqUWAHD_bt21czkUjJrsWse23TSHbHLgJQqnk-mALPtQjoSkVydPk3y1Db52Y3NH39aGpAPYOnPXUUcXIRWAiZId382MHX1Uw8uPgr4jhrqR9QEDVAzrZjWqe9c_n2vosAVuTeJIArN9w-DxT1UjTEGWPhx6E08B5yIpWoXpkGXmS2iOrhUGIlQOTTaSs34CZlOOqMCKVEuhY="
     MONGO_PORT = 27017
     MONGO_DB = "Emiko"
 
